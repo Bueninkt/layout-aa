@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 64px;
-    background-color: rgb(255, 0, 0)
+    background-color: #ff0202fa
 }
 
 header{
@@ -33,33 +33,40 @@ header{
 
 }
 .menu ul{
+    font-size: 29px;
+    font-family: "kanit";
     display: flex;
+    
     gap: 32px;
+    color: white
+    
 }
 main{
     flex-grow: 1;
     display: flex;     
 }
 main .imagem{
+    
     background-image: url(image\ 1\ \(4\).png)
+    
 }
 .conteudo{
     height: 100%;
-    width: 50%;
-    
+    width: 51%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: white
 }
 
 .conteudo h1{
     font-size: 96px;
-    font-family: "Kanit";
+    font-family: "Kanit", sans-serif;
 }
 
 .conteudo p{
     width: 90%;
-    font-size: 48px;
+    font-size: 45px;
     font-family: "Kanit", sans-serif;
 }
 
@@ -81,8 +88,19 @@ main .imagem{
     height: 96px;
     width: 96px;
     border-radius: 50%;
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(133, 133, 133); 
+}
+
+.social .pic1  {
+    background-image: url(img.png);
+}
+
+.social .pic2{
     background-image: url(image\ 1\ \(5\).png);
+}
+
+.social .pic3{
+    background-image: url(img.png);
 }
 
 .imagem{
@@ -91,6 +109,9 @@ main .imagem{
     background-color: lightgrey;
 }
 footer{
+    font-style: italic;
+    font-size: 20px;
+    font-family: "kanit";
     height: 100px;
     display: flex;
     justify-content: center;
